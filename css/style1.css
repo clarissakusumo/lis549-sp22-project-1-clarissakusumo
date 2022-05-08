@@ -1,7 +1,7 @@
 .header {
     padding: 80px; 
     text-align: center; 
-    background: #a4c5c6; 
+    background-image: url("../img/pixiedust2.jpeg");
     color: white; 
   }
   
@@ -27,4 +27,24 @@
 .navbar a:hover {
     background-color: #FFFFD1; 
     color: teal; 
+}
+
+body {
+  font-family: 'Nunito Sans', Arial, sans-serif;
+  font-size: 16px
+}
+
+footer {
+  color: white;
+  background-color: #3E1305;
+}
+
+footer a {
+  text-decoration: none;
+  color: white; 
+}
+
+footer p {
+  margin: 0;
+  line-height: 1.25;
 }

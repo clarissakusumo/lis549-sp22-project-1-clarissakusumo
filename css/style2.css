@@ -1,10 +1,31 @@
 .header {
     padding: 80px; 
     text-align: center; 
-    background: #a4c5c6; 
+    background-image: url("../img/pixiedust.jpeg");
     color: white; 
   }
-  
+
 .header h1 {
     font-size: 60px;
 }
+
+.navbar {
+    overflow: hidden; 
+    background-color: #f6f6eb; 
+}
+
+.navbar a {
+  float: left;
+  display: block; 
+  color: black; 
+  text-align: center;
+  padding: 14px 30px; 
+  text-decoration: none; 
+}
+
+.navbar a:hover {
+  background-color: #FFFFD1; 
+  color: teal; 
+}
+
+
