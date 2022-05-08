@@ -8,3 +8,81 @@
 .header h1 {
     font-size: 60px;
 }
+
+body {
+  font-family: 'Nunito Sans', Arial, sans-serif;
+  font-size: 16px
+}
+
+.navbar {
+    overflow: hidden; 
+    background-color: #f6f6eb; 
+}
+
+.navbar a {
+  float: left;
+  display: block; 
+  color: black; 
+  text-align: center;
+  padding: 14px 30px; 
+  text-decoration: none; 
+}
+
+.navbar a:hover {
+  background-color: #FFFFD1; 
+  color: teal; 
+}
+
+.column1 {
+  background-color:#bea7be;
+}
+
+.column1:hover {
+  opacity: 0.5;
+}
+
+.column2 {
+  background-color:#e3b3e3;
+}
+
+.column2:hover {
+  opacity: 0.5;
+}
+
+.column3 {
+  background-color:#eed1ee;
+}
+
+.column3:hover {
+  opacity: 0.5;
+}
+
+#food dt {
+  font-size: 125%;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+#food dd {
+  margin: 0;
+}
+
+#food img {
+  height: 200px;
+  border-radius: 15px;
+}
+
+footer {
+  color: white;
+  background-color: #bd97cb;
+}
+
+footer a {
+  text-decoration: none;
+  color: white; 
+}
+
+footer p {
+  margin: 0;
+  line-height: 1.25;
+}
