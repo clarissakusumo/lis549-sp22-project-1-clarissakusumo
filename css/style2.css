@@ -1,5 +1,5 @@
 .header {
-    padding: 80px; 
+    padding: 60px; 
     text-align: center; 
     background-image: url("../img/pixiedust.jpeg");
     color: white; 
@@ -85,4 +85,47 @@ footer a {
 footer p {
   margin: 0;
   line-height: 1.25;
+}
+
+@media (min-width: 100px) {
+  .header {
+    padding: 20px;
+  }
+}
+@media (min-width: 400px) {
+  html {
+    height: 100%;
+  } 
+
+  img,
+  figcaption {
+    max-width: 100%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+  }
+
+  #food dd {
+    max-width: 100%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+  }
+  
+  #food dt {
+    max-width: 100%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+  }
+
+  body {
+    background-color: #f5fcff;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background-color: #ddebf5;
+  }
 }

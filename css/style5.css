@@ -1,5 +1,5 @@
 .header {
-    padding: 80px; 
+    padding: 60px; 
     text-align: center; 
     background-image: url("../img/pixiedust5.jpg");
     color: white; 
@@ -85,4 +85,25 @@ footer a {
 footer p {
   margin: 0;
   line-height: 1.25;
+}
+
+@media (min-width: 100px) {
+  .header {
+    padding: 20px;}
+}
+
+@media (min-width: 400px) {
+  html {
+    height: 100%;
+  }
+  
+  body {
+    background-color: #f0fff0;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background-color: #dbf9db;
+  }
 }
