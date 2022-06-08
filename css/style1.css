@@ -5,23 +5,40 @@
     color: white; 
   }
   
-
+#header1 {
+    padding: 60px;
+}
 .header h1 {
     font-size: 60px;
+}
+
+
+#titlerides {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#buttons {
+  text-align: center;
+  padding:auto;
+  margin:auto;
 }
 
 .navbar {
     overflow: hidden; 
     background-color: #f6f6eb; 
   }
-  
+
 .navbar a {
-    float: left;
-    display: block; 
+    display: flex; 
+    justify-content: space-between;
+    margin: auto;
     color: black; 
     text-align: center;
-    padding: 14px 30px; 
     text-decoration: none; 
+    position: static;
+    font-weight: bold;
 }
   
 .navbar a:hover {
@@ -29,9 +46,116 @@
     color: teal; 
 }
 
+#navbox .btn {
+  color: teal;
+  background-color: #FFFFD1;
+  border-color: #767676;
+  margin-bottom: 165px;
+}
+
+#navbox .btn:hover {
+  color: white;
+  background-color: #424242;
+  border-color: white;
+}
+
 body {
   font-family: 'Nunito Sans', Arial, sans-serif;
   font-size: 16px
+}
+
+#disneyquote {
+  background-color: #f6f6eb;
+}
+
+#disneyquote h3 {
+  text-align: center;
+  font-style: italic;
+  font-family: 'Nunito Sans', Arial, sans-serif;
+}
+
+#email {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+
+.card-whole {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  min-height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-bottom: auto;
+  padding-right: auto;
+  padding-left: 40px;
+  border: black;
+}
+
+
+
+
+.filterdiv {
+  min-width: 220px;
+  box-shadow: 5px 10px 8px 10px #888888;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  width: 20%;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  display: inline-flex;
+  border: black;
+}
+
+
+.filter-button {
+  border: none;
+  outline: none;
+  padding: 100px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 15px;
+}
+
+.filter-button:hover{
+  background-color: #ddd;
+}
+.filterdiv:hover {
+  background-color: #FFFFD1; 
+  color: teal; 
+}
+
+.filterdiv-container {
+  padding: 2px 14px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0px;
+}
+
+
+.show {
+  display: block;
 }
 
 footer {
@@ -49,31 +173,88 @@ footer p {
   line-height: 1.25;
 }
 
-@media (min-width: 100px) {
+@media (min-width: 598px) {
   .header {
     padding: 20px;
-  }
-}
-@media (min-width: 400px) {
-  html {
-    height: 100%;
-  } 
-
-  img,
-  figcaption {
-    max-width: 100%;
-    height: auto;
-    display: table;
-    margin: 0 auto;
   }
 
   body {
     background-color: #f5fcff;
   }
+
+  .filterdiv {
+    min-width: 220px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    margin-left: 20px;
+    width: 20%;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-flex;
+    border: black;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    height: 100%;
+  } 
+
+  img {
+    max-width: auto;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+  }
+
+
+  .navbar a {
+    float: left;
+    padding: 0;
+    display: flex;
+    color: black; 
+    text-align: center;
+    position: static;
+    font-weight: bold;
+  }
+
+  .navbar a:hover {
+    background-color: darkolivegreen; 
+    transition: 0.5s ease-out; 
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
 }
 
-@media (min-width: 992px) {
-  body {
-    background-color: #ddebf5;
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 80px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 40px;
   }
 }
